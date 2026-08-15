@@ -1,0 +1,22 @@
+{
+  "name": "pg-graph-toolkit",
+  "displayName": "PG Graph Toolkit",
+  "version": "0.5.0",
+  "description": "Turn a local PostgreSQL table into a browsable Neo4j graph, then query it in plain English. Bundles the sql-to-neo4j migration pipeline and the cypher-translator (grounded English-to-Cypher with conversation memory).",
+  "author": {
+    "name": "Constantin Shafranski",
+    "url": "https://github.com/costiash"
+  },
+  "homepage": "https://github.com/constantinshafranski-arch/pg-graph-toolkit",
+  "repository": "https://github.com/constantinshafranski-arch/pg-graph-toolkit",
+  "keywords": [
+    "postgres",
+    "postgresql",
+    "neo4j",
+    "graph",
+    "cypher",
+    "migration",
+    "text2cypher",
+    "docker"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "costiash-plugins",
+  "description": "Plugins by costiash — starting with pg-graph-toolkit: PostgreSQL to Neo4j to plain-English graph querying.",
+  "owner": {
+    "name": "Constantin Shafranski",
+    "url": "https://github.com/costiash"
+  },
+  "plugins": [
+    {
+      "name": "pg-graph-toolkit",
+      "source": "./",
+      "description": "PostgreSQL table → Neo4j graph → plain-English querying, end to end and local-first.",
+      "category": "database",
+      "tags": ["postgres", "neo4j", "graph", "cypher"]
+    }
+  ]
+}

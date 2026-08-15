@@ -1,0 +1,17 @@
+{
+  "description": "Escalate destructive docker commands aimed at the managed Neo4j container to explicit user confirmation",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}\"/scripts/docker_guard.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
