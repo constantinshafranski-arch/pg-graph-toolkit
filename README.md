@@ -32,7 +32,7 @@ graph is a disposable mirror you can rebuild with one command.
 ## Install
 
 ```shell
-/plugin marketplace add costiash/pg-graph-toolkit
+/plugin marketplace add constantinshafranski-arch/pg-graph-toolkit
 /plugin install pg-graph-toolkit@costiash-plugins
 ```
 
